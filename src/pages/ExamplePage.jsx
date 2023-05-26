@@ -3,8 +3,8 @@ import {
   Component,
   useState,
   useReducer,
-  useEffect,
-  useLayoutEffect,
+  // useEffect,
+  // useLayoutEffect,
 } from "../whichReact";
 
 class ClassComponent extends Component {

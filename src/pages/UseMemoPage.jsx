@@ -1,6 +1,19 @@
+/*
+ * @Autor: ERP
+ * @Email: 邮箱
+ * @Description:  
+ * @CreateDate: Do not edit
+ * @LastEditors: houxinchao
+ */
 import * as React from "react";
 import {useState, useMemo} from "react";
-
+/**
+ * https://zhuanlan.zhihu.com/p/268802571
+ * useMemo:
+ * useEffect 函数式组件的生命周期相关；（useEffect 和 useLayoutEffect）
+ * @param {*} props 
+ * @returns 
+ */
 export default function UseMemoPage(props) {
   const [count, setCount] = useState(0);
   const [value, setValue] = useState("");
